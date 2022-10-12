@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -21,26 +21,49 @@
       body {
         font-family: 'Roboto', sans-serif;
         max-width: 100%;
-        display: flex;
-        justify-content: center;
-        background-image: url('moroccan-flower.png');
+        background: #11274e;
+        color: rgb(236, 236, 236);
       }
       .container {
         width: 380px;
-        padding: 1rem;
+        padding: 0 1rem;
+        margin: 0 auto;
       }
       img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: 0 auto;
         display: block;
-        border: 16px solid white;
+        border: 8px solid rgb(238, 238, 238);
+      }
+      #profile {
+        border-radius: 50%;
+      }
+      .hero {
+        /*  background: rgb(29, 26, 85);
+        background: radial-gradient(
+          circle,
+          rgba(29, 26, 85, 1) 0%,
+          rgba(23, 23, 110, 1) 79%
+        ); */
+        padding: 32px;
+      }
+      h1 {
+        font-family: 'Henny Penny', cursive;
+        text-align: center;
+      }
+      a,
+      a:visited {
+        color: #6fa8dc;
       }
     </style>
   </head>
   <body>
+    <div class="hero">
+      <img id="profile" src="sol-profile.jpg" />
+      <h1>Lectomaniática</h1>
+    </div>
     <div class="container">
-      <img src="sol.jpg" />
       <div>
         <p>
           Lectora, creadora de contenido digital literario, mediadora de lectura
